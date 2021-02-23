@@ -95,29 +95,68 @@ ul li.active a{
 
 /*--------Services----Section -- end-*/
 
-/*--------male Doctor----Section ---*/
-.male{
-    margin:40px;
+/*--------popular Doctor----Section ---*/
+
+.title-popular h1{
+    text-align: center;
+}
+.popular{
+    margin:40px 0px 40px 0px;
+    height:600px;
+    width:100%; 
+    padding-top: 20px;     
+    overflow: hidden;
+   
+}
+.popular-doc{
+    display:inline-block;  
+
+    
+}
+.male-doc{
+  
+   height:600px;
+   width: 47.5%;
+   float: right;   
+   
+}
+.female-doc{
+    
+    height:600px;
+    width: 47.5%;
+    float:right;
+    
+}
+.male-doc h1{
+    text-align: center;
+}
+.female-doc h1{
+    text-align: center;
+}
+.doctors-pic{
+    display:inline-block;
+}
+.one-doc{
+    display:inline-block;
+}
+.doctors-pic img{
     height:200px;
-    width:95%; 
-    padding-top: 20px; 
-    background-color: #777777;  
+    width:200px;
+    border-radius: 50%;
+    margin-left: 40px;
+    
 }
-.male h1{
-    text-align: center;   
-    padding-top:25px; 
-}
-/*--------male Doctor----Section -- end-*/
+/*--------popular Doctor----Section -- end-*/
 
 /*--------female Doctor----Section ---*/
-.female{
+.medicine{
     margin:40px;
     height:200px;
     width:95%; 
     padding-top: 20px; 
     background-color: #777777;  
 }
-.female h1{
+.medicine h1{
     text-align: center;   
     padding-top:25px; 
 }
@@ -136,6 +175,8 @@ ul li.active a{
     padding-top:25px; 
 }
 /*--------places----Section -- end-*/
+
+
 /*--------footer----Section ---*/
 .footer{
     margin:40px 0px 0px 0px;
