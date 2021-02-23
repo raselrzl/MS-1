@@ -132,15 +132,24 @@ ul li.active a{
 
 /*--------female Doctor----Section ---*/
 .medicine{
-    margin:40px;
-    height:200px;
-    width:95%; 
-    padding-top: 20px; 
-    background-color: #777777;  
+    margin:0px;
+    height:300px;
+    width:100%;
+
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://accessiblemeds.org/sites/default/files/2020-03/About-us-generic-medicines-header.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.medicine h1{
-    text-align: center;   
-    padding-top:25px; 
+.medicine .med{
+    padding:10px;
+    color:#fff;
 }
 /*--------male Doctor----Section -- end-*/
 
