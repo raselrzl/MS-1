@@ -102,42 +102,24 @@ ul li.active a{
 }
 .popular{
     margin:40px 0px 40px 0px;
-    height:600px;
+    height:300px;
     width:100%; 
     padding-top: 20px;     
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    
    
 }
 .popular-doc{
-    display:inline-block;  
-
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 10px 30px 0 30px;
     
-}
-.male-doc{
-  
-   height:600px;
-   width: 47.5%;
-   float: right;   
-   
-}
-.female-doc{
-    
-    height:600px;
-    width: 47.5%;
-    float:right;
-    
-}
-.male-doc h1{
-    text-align: center;
-}
-.female-doc h1{
-    text-align: center;
-}
-.doctors-pic{
-    display:inline-block;
-}
-.one-doc{
-    display:inline-block;
 }
 .doctors-pic img{
     height:200px;
